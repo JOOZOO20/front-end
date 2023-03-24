@@ -7,74 +7,116 @@
         header {
             position: fixed;
             top: 0;
-            /* width: 100% */
+            width: 100%;
             left: 0;
             right: 0;
-            height: 25px;
-            padding: 1rem;
+            height: 1.5625rem;
+            padding: 0.5rem;
             background: #f5f5f5;
             font-weight: bold;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-align: right;
+
         }
 
-        
+        nav {
+
+            margin-left: 65.625rem;
+        }
+
+        span {
+
+            padding: 1rem;
+        }
+
 
         body {
-            padding-top: 25px;
+            height:5000px;
+            padding-top: 1.5625rem;
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
 
+
+
         .background-wrap {
-  background-image: url('KakaoTalk_20230323_103550505.jpg');
-  background-size: 1440px 1080px;
-  width: 1440px;
-  height: 580px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: -50%;
-  
-}
+            background-image: url('KakaoTalk_20230323_103550505.jpg');
+            background-size: 100% 1024px;
+            width: 100%;
+            height: 36.25rem;
+            display: flex;
+            align-items: left;
+            text-align: left;
+            top: -50%;
+        }
 
-.text{
- font-weight: bold;
- font-size: 70px;
- align-items:left;
- display: inline-block;
-}
+        .text {
+            font-weight: bold;
+            font-size: 4.375rem;
+            height: 12.5rem;
+            width: 100%;
+            text-align: left;
+            padding-left: 6.25rem;
+            color: #f5f5f5;
+            font-style: italic;
+            letter-spacing: 0.1875rem;
+            padding-top: 3.125rem;
+        }
 
-.con2{
-   background-color: rgba(255,155,38,0.15);
-   background-size: 1440px 1080px;
-  width: 1440px;
-  height: 500px;
-}
+        .text1 {
+            width: 90%;
+            text-align: left;
+            position: absolute;
+            left: 7.1875rem;
+            top: 18.75rem;
+            color: #f5f5f5;
+            height: 15.625rem;
+            font-size: 1.25rem;
 
-.text2{
-    text-align: center; 
-    font-size: 25px;
-    padding: 50px;
-    display:block;
-}
-.text2::after{
-  content: "";
-  display: block;
-  width: 90px;
-  border-bottom: 4px solid #ff9b26;
-  margin: 20px auto;
+        }
 
-}
+        .con2 {
+            background-color: rgba(255, 155, 38, 0.15);
+            background-size: 100% 67.5rem;
+            width: 100%;
+            height: 31.25rem;
+        }
 
+        .text2 {
+            text-align: center;
+            font-size: 1.5625rem;
+            padding: 3.125rem;
+            display: block;
+        }
 
-        
-        
+        .text2::after {
+            content: "";
+            display: block;
+            width: 5.625rem;
+            border-bottom: 4px solid #ff9b26;
+            margin: 1.25rem auto;
+
+        }
+
+        page2{
+            background-size: 1440px 1024px;
+            width:1440px;
+            height:1024px;
+        }
+        .page2text{
+            text-align: center;
+            font-style: italic;
+            font-size: 36px;
+            color: rgba(0,0,0,0.49);
+        }
     </style>
 </head>
 
 <body>
     <header>
-       
         <nav>
             <span>소개하기</span>
             <span>택배조회</span>
@@ -82,21 +124,51 @@
         </nav>
     </header>
 
-<div class="container">
-    <div class="background-wrap">       
-        <div class="text">
-            DELIVERY <br> GO
+    <div class="container">
+        <div class="background-wrap">
+
+            <div class="text"> DELIVERY <br> GO </div>
+            <div class="text1">택배 모아보기 서비스</div>
         </div>
     </div>
-</div>
 
-<div class="con2">
-    <div class="text2">
-        <span> <b>소개하기</b> </span>
+    <div class="con2">
+        <div class="text2">
+            <span> <b>소개하기</b> </span>
+        </div>
+
+        <div>
+            <div style="position: ralative; width:130px; height:130px; padding-left:235px; display:inline-block">
+                <img src="Ellipse 6.png"></img>
+                <div style="position: absolute; width:89px; height:78px; top:815px; left:264px;">
+                    <img src="Home.png"></img>
+                </div>
+            </div>
+
+            <div style="position: ralative; width:130px; height:130px; padding-left:286px; display:inline-block">
+                <img src="Ellipse 6.png"></img>
+                <div style="position: absolute; width:89px; height:78px; top:815px; left:690px;">
+                    <img src="Profile.png"></img>
+                </div>
+            </div>
+
+            <div style="position: ralative; width:130px; height:130px; padding-left:286px; display:inline-block">
+                <img src="Ellipse 6.png"></img>
+                <div style="position: absolute; width:89px; height:78px; top:815px; left:1116px;">
+                    <img src="Paper.png"></img>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-</div>
-    
+    <div class="page2">
+        <div class="page2text"> 택배GO란? </div>
+
+
+    </div>
+
+
 </body>
 
 </html>
