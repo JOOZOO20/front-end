@@ -22,18 +22,19 @@
         }
 
         nav {
-
+            position:sticky;
+            top:0;
             margin-left: 65.625rem;
         }
 
         span {
-
+            position:relative;
             padding: 1rem;
         }
 
 
         body {
-            height:5000px;
+            height:312.5rem;
             padding-top: 1.5625rem;
             width: 100%;
             margin: 0;
@@ -44,7 +45,7 @@
 
         .background-wrap {
             background-image: url('KakaoTalk_20230323_103550505.jpg');
-            background-size: 100% 1024px;
+            background-size: 100% 64rem;
             width: 100%;
             height: 36.25rem;
             display: flex;
@@ -101,17 +102,80 @@
 
         }
 
-        page2{
-            background-size: 1440px 1024px;
-            width:1440px;
-            height:1024px;
+        .page2{
+            background-size: 90rem 29.375rem;
+            width:90rem;
+            height: 37rem;
+            
         }
         .page2text{
-            text-align: center;
+            padding-top: 8.625rem;
+            font-family: Inter;
+            font-size: 2.25rem;
             font-style: italic;
-            font-size: 36px;
+            font-weight: 573;
+            line-height: 2.75rem;
+            letter-spacing: 0.05em;
+            text-align: center;
+            font-variation-settings: 'slnt' -10;
+            font-size: 2.25rem;
             color: rgba(0,0,0,0.49);
         }
+
+        .page2text::after {
+            content: "";
+            display: block;
+            width: 5.625rem;
+            border-bottom: 4px solid #ff9b26;
+            margin: 1.25rem auto;
+
+        }
+
+        .page2text1{
+            font-family: IM FELL French Canon SC;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+        letter-spacing: 0.05em;
+        text-align: center;
+        padding-top: 1.5625rem;;
+        }
+
+        .page2text2{
+            font-family: Inter;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.4375rem;
+        letter-spacing: 0.05em;
+        text-align: center;
+        padding-top: 2.625rem;
+        color: rgba(0, 0, 0, 0.55);
+        }
+
+        .con2-1{
+        
+        width: 100%;
+        height: 602px;
+        top: 500px;
+        background: rgba(255, 155, 38, 0.23);
+        }
+
+        .page2text3{
+            font-family: 'Inter';
+font-style: italic;
+font-weight: 573;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #FF9B26;
+font-variation-settings: 'slnt' -10;
+height: 100px; top:-50px; width: 600px; left: 624px; display: block; position:relative;
+        }
+
     </style>
 </head>
 
@@ -138,24 +202,24 @@
         </div>
 
         <div>
-            <div style="position: ralative; width:130px; height:130px; padding-left:235px; display:inline-block">
-                <img src="Ellipse 6.png"></img>
-                <div style="position: absolute; width:89px; height:78px; top:815px; left:264px;">
-                    <img src="Home.png"></img>
+            <div style="position: ralative; width:8.125rem; height:8.125rem; padding-left:14.6875rem; display:inline-block">
+                <img src="Ellipse 6.png">
+                <div style="position: absolute; width:5.5625rem; height:4.875rem; top:49rem; left:16rem;">
+                    <img src="Home.png">
                 </div>
             </div>
 
-            <div style="position: ralative; width:130px; height:130px; padding-left:286px; display:inline-block">
-                <img src="Ellipse 6.png"></img>
-                <div style="position: absolute; width:89px; height:78px; top:815px; left:690px;">
-                    <img src="Profile.png"></img>
+            <div style="position: ralative; width:8.125rem; height:8.125rem; padding-left:20.2rem; display:inline-block">
+                <img src="Ellipse 6.png">
+                <div style="position: absolute; width:5.5625rem; height:4.875rem; top:49rem; left:45rem;">
+                    <img src="Profile.png">
                 </div>
             </div>
 
-            <div style="position: ralative; width:130px; height:130px; padding-left:286px; display:inline-block">
-                <img src="Ellipse 6.png"></img>
-                <div style="position: absolute; width:89px; height:78px; top:815px; left:1116px;">
-                    <img src="Paper.png"></img>
+            <div style="position: ralative; width:8.125rem; height:8.125rem; padding-left:17.875rem; display:inline-block">
+                <img src="Ellipse 6.png">
+                <div style="position: absolute; width:5.5625rem; height:4.875rem; top:49rem; left:71.75rem;">
+                    <img src="Paper.png">
                 </div>
             </div>
         </div>
@@ -164,10 +228,18 @@
 
     <div class="page2">
         <div class="page2text"> 택배GO란? </div>
-
+        <div class="page2text1">여러 사이트에서 시킨 배송을 한눈에 조회</div>
+        <div class="page2text2">혹시 배송조회를 할 때마다 쇼핑몰사이트에 들어가는게 귀찮으셨나요?<br>
+            걱정마세요 택배고에서 해결해드립니다!</div>
+    </div>
+    <div class="con2-1">
+        <a style="height: 14.375rem; width: 8.9375rem; left: 16.4375rem; top: 4.4375rem; position:relative; display: block; ">
+            <img src="택배고 1.png">
+            <a class="page2text3"> 
+                이름, 운송장번호로 간편하게 조회 </a>
+        </a>
 
     </div>
-
 
 </body>
 
