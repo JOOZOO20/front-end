@@ -1,114 +1,50 @@
-@font-face {
-    font-family: 'KimjungchulGothic-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cafe24Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/****    2. MainInfo    ****/
-#mainInfo{
-    letter-spacing: 0.5px;
-    font-family: 'KimjungchulGothic-Bold';
-    background-color: black;
-    background-size:100vw 100vh ;
+body{
     color: white;
-    text-align: center;
-
 }
-
 
 .wrap2{
+    margin-top: 3rem; /*margin top*/
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
-.container2{
-    width: 80vw;
-    height: 40vh;
-    display: grid;
-    margin-top: 12rem;
-    /* border: 2px solid white; */
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    grid-template-areas: 
-    "main-box1 main-box4 main-box7"
-    "main-box2 main-box5 main-box8"
-    "main-box3 main-box6 main-box9";
+    background: rgba(83, 81, 81, 0.41);
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgba(163, 163, 163, 0.8);
 }
 
-/*아이콘 이미지*/
-.main-ico{
+
+
+.wrap2 img{
     margin-top: 2rem;
     width: 100px;
     height: 90px;
 }
 
-/*택배고 소개*/
-.main-front{
-    margin-left: 5rem;
-    margin-right: 60rem;
-    position: absolute;
-    background: rgba(83, 81, 81, 0.41);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-}
-.main-item1{grid-area: main-box1;}
-.main-item2{grid-area: main-box2;}
-.main-item3{grid-area: main-box3;}
-
-
-/*개발자 소개*/
-.main-middle{
-    margin-left: 5rem;
-    margin-right: 5rem;
-    position: absolute;
-    background: rgba(83, 81, 81, 0.41);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-}
-.main-item4{grid-area: main-box4;}
-.main-item5{grid-area: main-box5;}
-.main-item6{grid-area: main-box6;}
-
-
-/*사용 기술 소개*/
-.main-back{
-    margin-left: 60rem;
-    margin-right: 5rem;
-    position: absolute;
-    background: rgba(83, 81, 81, 0.41);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-}
-.main-item7{grid-area: main-box7;}
-.main-item8{grid-area: main-box8;}
-.main-item9{grid-area: main-box9;}
-
-
-.main-item2,.main-item5,.main-item8{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-family: 'Cafe24Ssurround';
-    color: gold;
-}
-
-.main-item3,.main-item6,.main-item9{
-    margin-top: 1rem;
-}
-
-.main-front, .main-middle, .main-back{
+.tags{
     text-decoration: none;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
+
+.bl_title, .bc_title, .br_title{
+    font-weight: bolder;
+    font-size: 20px;
+    color: goldenrod;
+}
