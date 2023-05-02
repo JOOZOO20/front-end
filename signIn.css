@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    margin-top: 5rem;
+    color: white;
+    background: url('https://github.com/JOOZOO20/front-end/blob/e9bbce0278acfad859824a2486f9c654ef3bd0e4/%EC%A4%91%EA%B3%A0%EC%8B%A0%EC%83%81/img/signinBackground.jpg?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    opacity: 0.7;
+    overflow: hidden;
+}
+
+/*박스 위치 조정. 전체 박스의 center 잡는 역할*/
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/*박스 내부 block들의 위치 조정*/
+.box{
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: black;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/*input 및 input 관련 box들*/
+.box-top{
+    width: 100%;
+}
+
+.box-top form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-top input{
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*button 및 button 관련 박스들*/
+.box-buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    
+}
+
+.box-buttom_signup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.box-buttom_button{
+    width: 80%;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
